@@ -128,14 +128,16 @@
 /* Finished Choose Us Section Styles */
 
 /* Deals & Discount Section */
-.deals-discounts-section{
+.deals-discounts-section {
     text-align: center;
 }
+
 .deals-discounts {
     max-width: 1170px;
     margin: 0px auto;
 }
-.deals-discounts-content{
+
+.deals-discounts-content {
     text-align: center;
 }
 
@@ -171,7 +173,8 @@ i {
     margin-top: 24px;
     margin-bottom: 16px;
 }
-.discount-description{
+
+.discount-description {
     color: #5A5A5D;
 }
 
@@ -185,7 +188,7 @@ i {
 
 
 /* Perfect Place Section */
-.perfect-place-section{
+.perfect-place-section {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -193,11 +196,63 @@ i {
     max-width: 1170px;
     margin: 100px auto;
 }
-.perfect-place-description-list{
+
+.perfect-place-description-list {
     color: #131318;
     font-weight: 700;
 }
-     
+
+
+/* Newsletter and Save-Up Styles */
+.newsletter-save {
+    max-width: 1170px;
+    align-items: center;
+    margin: 0px auto;
+    display: flex;
+    gap: 25px;
+
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.section-heading{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.section-description{
+    color: #5A5A5D;
+}
+
+.newsletter hr{
+   color: #1313181a;
+}
+
+.newsletter input {
+    color: rgba(19, 19, 24, 0.30);
+    display: block;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+    margin-bottom: 16px;
+    width: 90%;
+}
+
+.subscribe-button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    padding: 15px;
+    width: 100%;
+}
+
 
 
 
@@ -205,7 +260,8 @@ i {
 
     .popular-section,
     .destination-img,
-    .perfect-place-section {
+    .perfect-place-section,
+    .newsletter-save {
         flex-direction: column;
         margin: 20px;
     }
@@ -228,9 +284,11 @@ i {
         gap: 0px;
         grid-template-columns: 1fr;
     }
-    .deals-discounts img{
+
+    .deals-discounts img {
         width: 400px;
     }
+
     .discount-card {
         width: 70vw;
         height: 30vh;
@@ -242,5 +300,9 @@ i {
         position: relative;
         left: 5px;
         bottom: 50px;
+    }
+
+    .save-up-img img{
+        width: 100%;
     }
 }
