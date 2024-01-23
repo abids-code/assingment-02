@@ -13,6 +13,9 @@
     font-weight: 800;
     padding: 15px 35px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+}
 
 /* Header section styles */
 header {
@@ -99,7 +102,8 @@ select {
     width: 20%;
     border: none;
 }
-select:hover{
+
+select:hover {
     cursor: pointer;
 }
 
@@ -127,7 +131,8 @@ select:hover{
 #find-now-btn {
     color: #FFF;
 }
-.btn-find-now:hover{
+
+.btn-find-now:hover {
     cursor: pointer;
 }
 
@@ -144,6 +149,7 @@ select:hover{
 
 .popular-tours-img img {
     width: 100%;
+
 }
 
 .popular-tours-content {
@@ -178,10 +184,12 @@ select:hover{
 .destination-content {
     text-align: center;
 }
-.destination{
+
+.destination {
     position: relative;
 }
-.destination h3{
+
+.destination h3 {
     position: absolute;
     color: #FFF;
     font-size: 1.75rem;
@@ -193,7 +201,8 @@ select:hover{
     top: 50%;
     margin: 0;
 }
-.destination h3:hover{
+
+.destination h3:hover {
     cursor: pointer;
     color: #FF5400;
 }
@@ -202,9 +211,10 @@ select:hover{
     width: 100%;
     filter: brightness(60%);
 }
-.destination-img img:hover{
+
+.destination-img img:hover {
     filter: brightness(100%);
-} 
+}
 
 .destination-img {
     display: flex;
@@ -212,6 +222,7 @@ select:hover{
     margin-bottom: 20px;
     flex: 1;
 }
+
 .destination-img-container {
     margin-top: 50px;
 
@@ -272,8 +283,10 @@ select:hover{
 .deals-discounts-section {
     text-align: center;
 }
+
 .deals-discounts-content {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .deals-discounts {
@@ -281,7 +294,9 @@ select:hover{
     margin: 20px auto;
     position: relative;
 }
+
 .discount-card {
+    text-align: left;
     width: 35%;
     height: 65%;
     border-radius: 16px;
@@ -293,7 +308,8 @@ select:hover{
     left: 50%;
     top: 7%;
 }
-#discount-card-2{
+
+#discount-card-2 {
     left: 10%;
     top: 7%;
 }
@@ -399,7 +415,59 @@ i {
     padding: 15px;
     width: 100%;
 }
+.save-up-img{
+    position: relative;
+}
 
+
+.save-up {
+    text-align: center;
+    width: 40%;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    transform: rotate(-40deg);
+    
+}
+.save-up-heading{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.save-up-discount{
+    margin: 10px 0px;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* supporter Section */
+.supporter-section{
+    max-width: 1170px;
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.supporter-section-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.supporter-section-description{
+    color: #5A5A5D;
+}
+
+.supporter-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Footer section styles */
 .footer-section {
