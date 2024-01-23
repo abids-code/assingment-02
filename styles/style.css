@@ -520,15 +520,23 @@ i {
     .popular-section,
     .destination-img,
     .perfect-place-section,
-    .newsletter-save {
+    .newsletter-save,
+    nav {
         flex-direction: column;
         margin: 20px;
     }
-
+    header,
+    .deals-discounts-section,
+    .save-up{
+        display: none;
+    }
     .popular-tours-content {
         width: 100%;
     }
-
+    footer{
+        width: 100vw;
+        height: 100vh;
+    }
 
     .destination-img {
         gap: 10px;
@@ -544,24 +552,7 @@ i {
         grid-template-columns: 1fr;
     }
 
-    .deals-discounts img {
-        width: 400px;
-    }
-
-    .discount-card {
-        width: 70vw;
-        height: 30vh;
-        border-radius: 16px;
-        border: 2px solid #FFF;
-        background: rgba(255, 255, 255, 0.80);
-        backdrop-filter: blur(2.5px);
-        padding: 50px;
-        position: relative;
-        left: 5px;
-        bottom: 50px;
-    }
-
     .save-up-img img {
-        width: 100%;
+        width: 80vw;
     }
 }
